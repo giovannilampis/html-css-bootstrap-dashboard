@@ -74,6 +74,10 @@ aside {
     left: 0;
 }
 
+.aside-links {
+    margin-top: 90px;
+}
+
 
 /* MAIN */
 
@@ -83,7 +87,7 @@ main {
     padding-left: 70px;
 }
 
-aside a i {
+i {
     color: var(--white);
 }
 
