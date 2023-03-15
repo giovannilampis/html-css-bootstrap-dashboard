@@ -9,6 +9,7 @@
     --light-red: rgb(220, 53, 69);
     --green: rgb(25, 135, 84);
     --yellow: rgb(255, 193, 7);
+    --white: rgb(255, 255, 255);
 }
 
 /* UTILITIES */
@@ -40,6 +41,10 @@ img {
     display: flex;
 }
 
+.column {
+    flex-direction: column;
+}
+
 /* a wrapper includes the whole web app */
 
 .wrapper {
@@ -62,15 +67,33 @@ header {
 
 main {
     width: 100%;
-    height: calc(100% - 5rem);
+    height: 100vh;
+    margin-top: 5rem;
 }
 
 aside {
     width: 5rem;
+    height: 100vh;
+    background-color: var(--dark-blue);
+}
+
+.aside-mobile-top {
+    margin-top: 5rem;
+}
+
+aside a i {
+    color: var(--white);
+}
+
+main {
+    width: calc(100% - 5rem);
     height: 100%;
 }
 
-.main-top-and-bottom {
-    width: calc(100% - 5rem);
-    height: 100%;
+.main-top {
+    background-color: var(--azure);
+}
+
+.main-bottom {
+    background-color: var(--light-grey);
 }
