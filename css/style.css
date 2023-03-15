@@ -1,0 +1,29 @@
+/* colors variables */
+
+:root {
+
+}
+
+/* UTILITIES */
+
+/* reset */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* debug */
+
+.debug {
+    border: 2px dashed red;
+}
+
+/* GENERAL */
+
+/* images' width */
+
+img {
+    width: 100%;
+}
