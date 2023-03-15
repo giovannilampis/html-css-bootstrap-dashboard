@@ -64,6 +64,27 @@ header {
     z-index: 1000;
 }
 
+.stripe-header {
+    width: 100%;
+    height: 0.5rem;
+    background-color: var(--yellow);
+}
+
+header .row {
+    height: calc(70px - 1rem);
+}
+
+#logo {
+    height: calc(70px - 1rem);
+    width: calc(70px - 1rem);
+}
+
+header i {
+    color: var(--orange);
+}
+
+/* ASIDE */
+
 aside {
     width: 70px;
     height: 100vh;
@@ -78,6 +99,10 @@ aside {
     margin-top: 90px;
 }
 
+aside i {
+    color: var(--white);
+}
+
 
 /* MAIN */
 
@@ -85,10 +110,6 @@ main {
     width: 100%;
     height: 100%;
     padding-left: 70px;
-}
-
-i {
-    color: var(--white);
 }
 
 main {
