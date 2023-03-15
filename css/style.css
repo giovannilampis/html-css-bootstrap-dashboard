@@ -2,6 +2,7 @@
 
 :root {
     --azure: rgb(27, 114, 232);
+    --dark-text: rgb(91, 88, 88);
     --dark-blue: rgb(9, 33, 55);
     --light-grey: rgb(229, 229, 229);
     --pale-grey: rgb(247, 247, 247);
@@ -79,8 +80,16 @@ header .row {
     width: calc(70px - 1rem);
 }
 
-header i {
+header a i {
+    color: var(--dark-text);
+}
+
+header a:last-child i {
     color: var(--orange);
+}
+
+.not-on-phone {
+    display: none;
 }
 
 /* ASIDE */
@@ -141,7 +150,11 @@ main {
 
 /* DESKTOP */
 
-@media screen and (min-width: 1200) {
+@media screen and (min-width: 1200px) {
+
+    .not-on-phone {
+        display: inline-block;
+    }
     
     aside {
         width: 150px;
