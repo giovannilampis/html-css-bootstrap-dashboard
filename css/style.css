@@ -138,6 +138,21 @@ main {
     width: 100%;
 }
 
+#class-avatar {
+    width: 3%;
+}
+
+table a {
+    width: 1.2rem;
+    height: 1.2rem;
+    border: 1px solid var(--dark-text);
+    border-radius: 2px;
+}
+
+table a i {
+    color: var(--dark-text);
+}
+
 /* RESPONSIVE DESIGN */
 
 /* TABLET */
