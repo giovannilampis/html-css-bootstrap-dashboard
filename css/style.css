@@ -75,6 +75,7 @@ header .row {
 #logo {
     height: calc(70px - 1rem);
     width: calc(70px - 1rem);
+    line-height: calc(70px - 1rem);
 }
 
 header a i {
@@ -120,12 +121,24 @@ main {
     height: 100%;
 }
 
+/* MAIN TOP MENU */
+
 #main-top-menu {
     height: 260px;
     width: 100%;
     margin-top: 70px;
     background-color: var(--azure);
 }
+
+.open-form {
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid var(--white);
+    line-height: 2rem;
+    text-align: center;
+}
+
+/* MAIN CONTENT */
 
 #main-content {
     background-color: var(--light-grey);
@@ -135,6 +148,8 @@ main {
 #class-avatar {
     width: 3%;
 }
+
+/* TABLE */
 
 table a {
     width: 1.5rem;
@@ -162,7 +177,16 @@ table tr td {
     }
 
     .not-on-phone {
-        display: inline-block;
+        display: block;
+    }
+
+    table th.not-on-phone,
+    table td.not-on-phone {
+        display: table-cell;
+    }
+
+    #logo img:first-child {
+        display: none;
     }
 }
 
