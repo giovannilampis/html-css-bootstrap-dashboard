@@ -74,18 +74,23 @@ header .container {
 
 #logo,
 header .container div:last-child {
-    width: 13%;
+    width: 16%;
 }
 
 header .container form {
-    width: 44%;
+    width: 42%;
 }
 
 #logo {
     height: calc(70px - 1rem);
     width: calc(70px - 1rem);
     line-height: calc(70px - 1rem);
+}
+
+#logo img:last-child {
+    width: 240%;
     position: relative;
+    top: 15px;
 }
 
 header a i {
