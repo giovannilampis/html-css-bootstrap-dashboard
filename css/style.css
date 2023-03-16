@@ -38,12 +38,8 @@ img {
     width: 100%;
 }
 
-.flex {
-    display: flex;
-}
-
-.column {
-    flex-direction: column;
+.not-on-mobile {
+    display: none;
 }
 
 /* a wrapper includes the whole web app */
@@ -88,10 +84,6 @@ header a:last-child i {
     color: var(--orange);
 }
 
-.not-on-phone {
-    display: none;
-}
-
 /* ASIDE */
 
 aside {
@@ -110,6 +102,7 @@ aside {
 
 aside i {
     color: var(--white);
+    padding-right: 1rem;
 }
 
 
@@ -149,7 +142,8 @@ table a {
     border-radius: 2px;
 }
 
-table a i {
+table a i,
+table th {
     color: var(--dark-text);
 }
 
@@ -167,7 +161,7 @@ table a i {
 
 @media screen and (min-width: 1200px) {
 
-    .not-on-phone {
+    .not-on-mobile {
         display: inline-block;
     }
     
