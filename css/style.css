@@ -38,7 +38,8 @@ img {
     width: 100%;
 }
 
-.not-on-mobile {
+.not-on-mobile,
+.not-on-phone {
     display: none;
 }
 
@@ -136,14 +137,18 @@ main {
 }
 
 table a {
-    width: 1.2rem;
-    height: 1.2rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
     border: 1px solid var(--dark-text);
-    border-radius: 2px;
+    border-radius: 6px;
+    text-align: center;
 }
 
 table a i,
-table th {
+table th,
+table span,
+table tr td {
     color: var(--dark-text);
 }
 
@@ -154,6 +159,10 @@ table th {
 @media screen and (min-width: 768px) {
     #main-top-menu {
         height: 140px;
+    }
+
+    .not-on-phone {
+        display: inline-block;
     }
 }
 
