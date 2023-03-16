@@ -157,7 +157,7 @@ main {
     width: 3rem;
     height: 3rem;
     border: 1px solid var(--white);
-    line-height: 2rem;
+    line-height: 3rem;
     text-align: center;
 }
 
@@ -180,7 +180,7 @@ main {
     width: 3%;
 }
 
-/* TABLE */
+/* TABLE "PROSSIME CLASSI" */
 
 table a {
     width: 1.5rem;
@@ -207,11 +207,14 @@ table tr td {
     #main-top-menu {
         height: 140px;
         display: flex;
-        flex-direction: row;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        align-items: center !important;
     }
 
     #main-top-menu > div:nth-child(1) {
         order: 3;
+        margin-right: 3rem;
     }
 
     #main-top-menu > div:nth-child(2) {
