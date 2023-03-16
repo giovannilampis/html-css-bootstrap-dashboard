@@ -68,14 +68,24 @@ header {
     background-color: var(--yellow);
 }
 
-header .row {
+header .container {
     height: calc(70px - 1rem);
+}
+
+#logo,
+header .container div:last-child {
+    width: 13%;
+}
+
+header .container form {
+    width: 44%;
 }
 
 #logo {
     height: calc(70px - 1rem);
     width: calc(70px - 1rem);
     line-height: calc(70px - 1rem);
+    position: relative;
 }
 
 header a i {
