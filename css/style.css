@@ -11,6 +11,7 @@
     --green: rgb(25, 135, 84);
     --yellow: rgb(255, 193, 7);
     --white: rgb(255, 255, 255);
+    --pill: rgb(22, 91, 186);
 }
 
 /* UTILITIES */
@@ -41,6 +42,10 @@ img {
 .not-on-mobile,
 .not-on-phone {
     display: none;
+}
+
+.only-on-phone {
+    display: block;
 }
 
 /* a wrapper includes the whole web app */
@@ -85,12 +90,15 @@ header .container form {
     height: calc(70px - 1rem);
     width: calc(70px - 1rem);
     line-height: calc(70px - 1rem);
+    position: relative;
 }
 
 #logo img:last-child {
     width: 240%;
-    position: relative;
-    top: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 header a i {
@@ -153,6 +161,14 @@ main {
     text-align: center;
 }
 
+.breadcrumb-pill {
+    background-color: var(--pill);
+    color: var(--white);
+    border-radius: 1rem;
+    padding: 0.1rem 0.4rem;
+    line-height: 1rem;
+}
+
 /* MAIN CONTENT */
 
 #main-content {
@@ -187,8 +203,23 @@ table tr td {
 /* TABLET */
 
 @media screen and (min-width: 768px) {
+
     #main-top-menu {
         height: 140px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #main-top-menu > div:nth-child(1) {
+        order: 3;
+    }
+
+    #main-top-menu > div:nth-child(2) {
+        order: 1;
+    }
+
+    #main-top-menu > div:nth-child(3) {
+        order: 2;
     }
 
     .not-on-phone {
@@ -203,6 +234,7 @@ table tr td {
     #logo img:first-child {
         display: none;
     }
+
 }
 
 /* DESKTOP */
@@ -223,5 +255,9 @@ table tr td {
 
     #main-top-menu {
         height: 125px;
+    }
+
+    .pill-plus {
+        display: none;
     }
 }
