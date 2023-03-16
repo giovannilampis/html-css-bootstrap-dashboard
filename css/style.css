@@ -180,7 +180,11 @@ main {
     width: 3%;
 }
 
-/* TABLE "PROSSIME CLASSI" */
+/* TABLE section */
+
+table {
+    width: 100%;
+}
 
 table a {
     width: 1.5rem;
@@ -196,6 +200,30 @@ table th,
 table span,
 table tr td {
     color: var(--dark-text);
+}
+
+/* FAQ section */
+
+#main-content-faq {
+    width: 100%;
+    height: 20rem;
+    background-color: pink;
+}
+
+/* TO DO LIST section */
+
+#main-content-todolist {
+    width: 100%;
+    height: 20rem;
+    background-color: yellow;
+}
+
+/* STATISTICS section */
+
+#main-content-statistics {
+    width: 100%;
+    height: 20rem;
+    background-color: red;
 }
 
 /* RESPONSIVE DESIGN */
@@ -243,6 +271,11 @@ table tr td {
 /* DESKTOP */
 
 @media screen and (min-width: 1200px) {
+
+    #main-content {
+        display: flex;
+        justify-content: space-between;
+    }
 
     .not-on-mobile {
         display: inline-block;
