@@ -4,6 +4,7 @@
     --azure: rgb(27, 114, 232);
     --dark-text: rgb(91, 88, 88);
     --dark-blue: rgb(9, 33, 55);
+    --stripes-header: rgb(232, 232, 232);
     --main-content-bg: rgb(248, 249, 250);
     --light-grey: rgb(229, 229, 229);
     --pale-grey: rgb(247, 247, 247);
@@ -69,7 +70,7 @@ img {
 header {
     width: 100%;
     height: 70px;
-    background-color: var(--pale-grey);
+    background-color: var(--main-content-bg);
     position: fixed;
     top: 0;
     left: 0;
@@ -79,7 +80,7 @@ header {
 .stripe-header {
     width: 100%;
     height: 0.5rem;
-    background-color: var(--yellow);
+    background-color: var(--stripes-header);
 }
 
 header .container {
@@ -116,6 +117,10 @@ header a i {
 
 header a:last-child i {
     color: var(--orange);
+}
+
+.bg-light-grey {
+    background-color: var(--light-grey) !important;
 }
 
 /* ASIDE */
@@ -158,10 +163,12 @@ main {
 }
 
 .open-form {
-    width: 3rem;
-    height: 3rem;
+    width: 1.5rem;
+    height: 1.5rem;
     border: 1px solid var(--white);
-    line-height: 3rem;
+    line-height: 1.5rem;
+    display: block;
+    text-decoration: none;
     text-align: center;
 }
 
@@ -169,8 +176,12 @@ main {
     background-color: var(--pill);
     color: var(--white);
     border-radius: 1rem;
-    padding: 0.1rem 0.4rem;
+    padding: 0.3rem 0.5rem;
     line-height: 1rem;
+}
+
+.mr-03 {
+    margin-right: 0.3rem;
 }
 
 /* MAIN CONTENT */
@@ -206,12 +217,18 @@ table tr td {
     color: var(--dark-text);
 }
 
+.round {
+    border-radius: 0.2rem !important;
+}
+
 /* FAQ section */
 
 #main-content-faq {
     width: 100%;
-    height: 20rem;
-    background-color: pink;
+}
+
+.border-bottom-grey {
+    border-bottom: 1px solid var(--light-grey);
 }
 
 /* TO DO LIST section */

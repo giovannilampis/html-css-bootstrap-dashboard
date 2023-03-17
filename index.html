@@ -24,16 +24,16 @@
 
             <div class="container d-flex justify-content-between align-items-center">
 
-                <div class="debug" id="logo">
+                <div id="logo">
                     <img src="./images/mobile-logo.png" alt="logo mobile layout">
                     <img src="./images/logo.svg" alt="logo with text" class="not-on-phone">
                 </div>
 
-                <form class="debug" role="search">
-                    <input class="form-control me-2" type="search" placeholder="&#128269;  Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                <form role="search">
+                    <input class="form-control me-2 bg-light-grey" type="search" placeholder="&#128269;  Prova a cercare: Lezioni di Laravel" aria-label="Search">
                 </form>
 
-                <div class="debug d-flex justify-content-between align-items-center">
+                <div class="d-flex justify-content-between align-items-center">
 
                     <a href="#" class="not-on-mobile"><i class="fa-solid fa-list-ul"></i></a>
 
@@ -101,7 +101,7 @@
 
                     <nav class="py-2" aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                          <li class="text-white">Boolean</li>
+                          <li class="text-white mr-03">Boolean</li>
                           <li class="breadcrumb-pill">Piano blaze</li>
                         </ol>
                     </nav>
@@ -111,8 +111,8 @@
                           <li class="breadcrumb-pill">3 app</li>
                           <li class="text-white px-1">>></li>
                           <li class="breadcrumb-pill pill-plus">+</li>
-                          <li class="breadcrumb-pill not-on-mobile">Boolean mobile app</li>
-                          <li class="breadcrumb-pill not-on-mobile">Boolean web app</li>
+                          <li class="breadcrumb-pill not-on-mobile mr-03">Boolean mobile app</li>
+                          <li class="breadcrumb-pill not-on-mobile mr-03">Boolean web app</li>
                           <li class="breadcrumb-pill not-on-mobile">Boolean blog app</li>
                         </ol>
                     </nav>
@@ -123,7 +123,7 @@
 
                     <p class="text-white">Studenti on line negli ultimi 30 minuti</p>
 
-                    <span>125</span>
+                    <span class="text-white">125</span>
 
                 </div>
 
@@ -131,17 +131,17 @@
 
             <div id="main-content">
 
-                <div id="main-content-a" class="row px-3 my-3 debug">
+                <div id="main-content-a" class="row px-3 my-3">
 
-                    <table class="debug-2 col-12 col-lg-8 table my-3">
+                    <div class="top-section-container text-black">
+                        Prossime classi
+                    </div>
 
-                        <div class="top-section-container text-black">
-                            Prossime classi
-                        </div>
+                    <table class="inner-border table bg-white round">
 
                         <thead>
                           <tr>
-                            <th scope="col">Nome</th>
+                            <th scope="col" style="width: 25%;">Nome</th>
                             <th class="not-on-phone" scope="col">Inizio</th>
                             <th class="not-on-phone" scope="col">ROI</th>
                             <th scope="col">Stato</th>
@@ -151,14 +151,14 @@
 
                         <tbody>
                           <tr>
-                            <th scope="row">
+                            <td>
                                 <div class="d-flex justify-content-start align-items-center gap-3">
                                     <div id="class-avatar">
                                         <img src="./images/class-avatar.jpg" alt="class-avatar">
                                     </div>
                                     <span>Classe 75</span>
                                 </div>
-                            </th>
+                            </td>
 
                             <td class="not-on-phone">15 Feb '21</td>
 
@@ -179,14 +179,14 @@
                           </tr>
 
                           <tr>
-                            <th scope="row">
+                            <td>
                                 <div class="d-flex justify-content-start align-items-center gap-3">
                                     <div id="class-avatar">
                                         <img src="./images/class-avatar.jpg" alt="class-avatar">
                                     </div>
                                     <span>Classe 76</span>
                                 </div>
-                            </th>
+                            </td>
 
                             <td class="not-on-phone">16 Feb '21</td>
 
@@ -207,14 +207,14 @@
                           </tr>
 
                           <tr>
-                            <th scope="row">
+                            <td>
                                 <div class="d-flex justify-content-start align-items-center gap-3">
                                     <div id="class-avatar">
                                         <img src="./images/class-avatar.jpg" alt="class-avatar">
                                     </div>
                                     <span>Classe 77</span>
                                 </div>
-                            </th>
+                            </td>
 
                             <td class="not-on-phone">17 Feb '21</td>
 
@@ -235,14 +235,14 @@
                           </tr>
 
                           <tr>
-                            <th scope="row">
+                            <td>
                                 <div class="d-flex justify-content-start align-items-center gap-3">
                                     <div id="class-avatar">
                                         <img src="./images/class-avatar.jpg" alt="class-avatar">
                                     </div>
                                     <span>Classe 78</span>
                                 </div>
-                            </th>
+                            </td>
 
                             <td class="not-on-phone">18 Feb '21</td>
 
@@ -263,14 +263,14 @@
                           </tr>
 
                           <tr>
-                            <th scope="row">
+                            <td>
                                 <div class="d-flex justify-content-start align-items-center gap-3">
                                     <div id="class-avatar">
                                         <img src="./images/class-avatar.jpg" alt="class-avatar">
                                     </div>
                                     <span>Classe 79</span>
                                 </div>
-                            </th>
+                            </td>
 
                             <td class="not-on-phone">19 Feb '21</td>
 
@@ -291,14 +291,14 @@
                           </tr>
 
                           <tr>
-                            <th scope="row">
+                            <td>
                                 <div class="d-flex justify-content-start align-items-center gap-3">
                                     <div id="class-avatar">
                                         <img src="./images/class-avatar.jpg" alt="class-avatar">
                                     </div>
                                     <span>Classe 80</span>
                                 </div>
-                            </th>
+                            </td>
 
                             <td class="not-on-phone">20 Feb '21</td>
 
@@ -319,14 +319,14 @@
                           </tr>
 
                           <tr>
-                            <th scope="row">
+                            <td>
                                 <div class="d-flex justify-content-start align-items-center gap-3">
                                     <div id="class-avatar">
                                         <img src="./images/class-avatar.jpg" alt="class-avatar">
                                     </div>
                                     <span>Classe 81</span>
                                 </div>
-                            </th>
+                            </td>
 
                             <td class="not-on-phone">21 Feb '21</td>
 
@@ -347,14 +347,14 @@
                           </tr>
 
                           <tr>
-                            <th scope="row">
+                            <td>
                                 <div class="d-flex justify-content-start align-items-center gap-3">
                                     <div id="class-avatar">
                                         <img src="./images/class-avatar.jpg" alt="class-avatar">
                                     </div>
                                     <span>Classe 82</span>
                                 </div>
-                            </th>
+                            </td>
 
                             <td class="not-on-phone">22 Feb '21</td>
 
@@ -377,21 +377,52 @@
                         </tbody>
 
                     </table>
+</>
 
-                    <div id="main-content-faq" class="debug-2 col-12 col-lg-8">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut qui ab tempora nam enim possimus adipisci eius quis quas laudantium.
+                    <div id="main-content-faq" class="col-12 col-lg-8 px-0">
+
+                        <div class="top-section-container text-uppercase text-black pt-1 px-2">
+                            f.a.q.
+                        </div>
+
+                        <div class="inner-border">
+
+
+                            <details class="border-bottom-grey p-2">
+
+                                <summary class="text-black">Come aggiungere un nuovo studente?</summary>
+                                <p class="dark-text">There. You see Lord Vader, she can be reasonable. Continue with the operation. You may fire when ready. What? You’re far too trusting. Dantooine is too remote to make an effective demonstration. But don’t worry. We will deal with your Rebel friends soon enough. No! Commence primary ignition.</p>
+                                
+                            </details>
+
+                            <details class="border-bottom-grey p-2">
+
+                                <summary class="text-black">Come accedere alle informazioni del mio account?</summary>
+                                <p class="dark-text">There. You see Lord Vader, she can be reasonable. Continue with the operation. You may fire when ready. What? You’re far too trusting. Dantooine is too remote to make an effective demonstration. But don’t worry. We will deal with your Rebel friends soon enough. No! Commence primary ignition.</p>
+                                
+                            </details>
+
+                            <details class="p-2">
+
+                                <summary class="text-black">Come usare questa dashboard da dispositivo mobile?</summary>
+                                <p class="dark-text">There. You see Lord Vader, she can be reasonable. Continue with the operation. You may fire when ready. What? You’re far too trusting. Dantooine is too remote to make an effective demonstration. But don’t worry. We will deal with your Rebel friends soon enough. No! Commence primary ignition.</p>
+                                
+                            </details>
+
+                        </div>
+
                     </div>
 
                 </div>
 
-                <div id="main-content-b" class="px-3 my-3 debug">
+                <div id="main-content-b" class="px-3 my-3">
 
-                    <div id="main-content-todolist" class="col-12 col-lg-4 my-3">
+                    <div id="main-content-todolist" class="col-12 col-lg-4 mb-3">
                         <div class="top-section-container text-black px-2 py-1">
                             Todo
                         </div>
 
-                        <div class="inner-border p-2">
+                        <div class="inner-border p-2 bg-white">
                             <div class="todo-bottom-container">
                                 <div class="px-2 py-1">
                                     <input type="checkbox" id="kickoff" name="kickoff" value="kickoff">
