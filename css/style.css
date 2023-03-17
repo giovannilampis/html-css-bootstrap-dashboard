@@ -220,7 +220,7 @@ table tr td {
     width: 100%;
 }
 
-.todo-container {
+.top-section-container {
     background-color: var(--pale-grey);
     border: 1px solid var(--light-grey);
     border-radius: 0.2rem;
@@ -243,6 +243,11 @@ table tr td {
 #main-content-statistics {
     width: 100%;
     background-color: var(--white);
+    border: 1px solid var(--light-grey);
+    border-radius: 0.2rem;
+}
+
+.inner-border {
     border: 1px solid var(--light-grey);
     border-radius: 0.2rem;
 }
