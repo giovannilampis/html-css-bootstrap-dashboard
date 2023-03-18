@@ -45,13 +45,19 @@ img {
     width: 100%;
 }
 
+/* font size class */
+
 .basic-font-size {
     font-size: 0.9rem !important;
 }
 
+/* text color class */
+
 .dark-text {
     color: var(--dark-text);
 }
+
+/* useful classes  for responsive design */
 
 .not-on-mobile,
 .not-on-phone {
@@ -71,6 +77,8 @@ img {
 
 /* HEADER */
 
+/* header basic layout */
+
 header {
     width: 100%;
     height: 70px;
@@ -81,11 +89,15 @@ header {
     z-index: 1000;
 }
 
+/* defines the lightgrey stripes on top & bottom of header section */
+
 .stripe-header {
     width: 100%;
     height: 0.5rem;
     background-color: var(--stripes-header);
 }
+
+/* basic dimensions of main elements inside header section */
 
 header .container {
     height: calc(70px - 1rem);
@@ -115,6 +127,8 @@ header .container form {
     transform: translate(-50%, -50%);
 }
 
+/* define icons color inside header */
+
 header a i {
     color: var(--dark-text);
 }
@@ -123,11 +137,15 @@ header a:last-child i {
     color: var(--orange);
 }
 
+/* defines search bar color inside header */
+
 .bg-light-grey {
     background-color: var(--light-grey) !important;
 }
 
 /* ASIDE */
+
+/* aside basic layout */
 
 aside {
     width: 70px;
@@ -155,7 +173,6 @@ aside a {
 aside a.not-on-mobile {
     padding-left: 1rem;
 }
-
 
 /* MAIN */
 
@@ -301,9 +318,9 @@ td {
     border-radius: 0.4rem;
 }
 
-/* RESPONSIVE DESIGN */
+/* RESPONSIVE DESIGN ... */
 
-/* TABLET */
+/* ... FOR TABLET ... */
 
 @media screen and (min-width: 768px) {
 
@@ -340,7 +357,7 @@ td {
 
 }
 
-/* DESKTOP */
+/* AND FOR DESKTOP LAYOUT */
 
 @media screen and (min-width: 1200px) {
 
