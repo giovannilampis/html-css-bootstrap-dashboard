@@ -141,7 +141,15 @@ aside {
 
 aside i {
     color: var(--white);
-    padding-right: 1rem;
+}
+
+aside a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+aside a.not-on-mobile {
+    padding-left: 1rem;
 }
 
 
@@ -188,8 +196,15 @@ main {
     width: 100%;
 }
 
+.top-section-container {
+    background-color: var(--pale-grey);
+    border: 1px solid var(--light-grey);
+    border-radius: 0.4rem 0.4rem 0 0;
+    height: 3rem;
+}
+
 #class-avatar {
-    width: 3%;
+    width: 20%;
 }
 
 /* TABLE section */
@@ -222,10 +237,6 @@ table tr td {
     color: var(--dark-text);
 }
 
-.round {
-    border-radius: 0.2rem !important;
-}
-
 td {
     white-space: nowrap;
 }
@@ -240,23 +251,21 @@ td {
     border-bottom: 1px solid var(--light-grey);
 }
 
+.inner-border-bottom-radius {
+    border: 1px solid var(--light-grey);
+    border-radius: 0 0 0.4rem 0.4rem;
+}
+
 /* TO DO LIST section */
 
 #main-content-todolist {
     width: 100%;
 }
 
-.top-section-container {
-    background-color: var(--pale-grey);
-    border: 1px solid var(--light-grey);
-    border-radius: 0 0 0.4rem 0.4rem;
-    height: 3rem;
-}
-
 .todo-bottom-container {
     background-color: var(--white);
     border: 1px solid var(--light-grey);
-    border-radius: 0.2rem;
+    border-radius: 0.4rem;
 }
 
 .border-todo {
@@ -270,12 +279,12 @@ td {
     width: 100%;
     background-color: var(--white);
     border: 1px solid var(--light-grey);
-    border-radius: 0.2rem;
+    border-radius: 0.4rem;
 }
 
 .inner-border {
     border: 1px solid var(--light-grey);
-    border-radius: 0.2rem;
+    border-radius: 0.4rem;
 }
 
 /* RESPONSIVE DESIGN */
