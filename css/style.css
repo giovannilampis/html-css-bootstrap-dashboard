@@ -174,12 +174,16 @@ main {
     background-color: var(--azure);
 }
 
+/* offcanvas button launch layout */
+
 .open-form {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 2rem;
+    height: 2rem;
     border: 1px solid var(--white);
     text-decoration: none;
 }
+
+/* breadcrumbs elements layout */
 
 .breadcrumb-pill {
     background-color: var(--pill);
@@ -188,6 +192,8 @@ main {
     padding: 0.3rem 0.5rem;
     line-height: 1rem;
 }
+
+/* margin right classes */
 
 .mr-1 {
     margin-right: 1rem;
