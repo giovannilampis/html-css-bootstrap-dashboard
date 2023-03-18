@@ -197,6 +197,13 @@ main {
 
 /* TABLE section */
 
+.main-content-table {
+    background-color: var(--white);
+    border: 1px solid var(--light-grey);
+    border-radius: 0 0 0.4rem 0.4rem;
+    padding: 0 2rem;
+}
+
 table {
     width: 100%;
 }
@@ -221,6 +228,10 @@ table tr td {
     border-radius: 0.2rem !important;
 }
 
+td {
+    white-space: nowrap;
+}
+
 /* FAQ section */
 
 #main-content-faq {
@@ -240,7 +251,7 @@ table tr td {
 .top-section-container {
     background-color: var(--pale-grey);
     border: 1px solid var(--light-grey);
-    border-radius: 0.2rem;
+    border-radius: 0 0 0.4rem 0.4rem;
     height: 3rem;
 }
 
