@@ -166,7 +166,6 @@ main {
     width: 1.5rem;
     height: 1.5rem;
     border: 1px solid var(--white);
-    display: block;
     text-decoration: none;
 }
 
@@ -200,6 +199,7 @@ main {
     border: 1px solid var(--light-grey);
     border-radius: 0 0 0.4rem 0.4rem;
     padding: 0 2rem;
+    margin-bottom: 1rem;
 }
 
 table {
@@ -287,9 +287,6 @@ td {
     #main-top-menu {
         height: 140px;
         display: flex;
-        flex-direction: row !important;
-        justify-content: space-between !important;
-        align-items: center !important;
     }
 
     #main-top-menu > div:nth-child(1) {
