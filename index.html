@@ -105,7 +105,7 @@
                     <div class="offcanvas offcanvas-start w-50" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
 
                         <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
+                            <h5 class="offcanvas-title text-black" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                           </div>
 
@@ -114,13 +114,13 @@
                             <div class="row gutter-md">
 
                                 <div class="col-6 mb-3">
-                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <label for="name" class="form-label text-black">Nome</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Inserisci il tuo nome" aria-describedby="emailHelp">
                                 </div>
     
                                 <div class="col-6 mb-3">
-                                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                    <label for="surname" class="form-label text-black">Cognome</label>
+                                    <input type="text" class="form-control" id="surname" placeholder="Inserisci il tuo cognome">
                                 </div>
 
                             </div>
@@ -128,13 +128,19 @@
                             <div class="row gutter-md">
 
                                 <div class="col-6 mb-3">
-                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <label for="exampleInputEmail1 text-black" class="form-label text-black">Email</label>
+                                    <label class="sr-only text-black" for="email">Email</label>
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">@</div>
+                                        </div>
+                                        <input type="email" class="form-control" id="email" placeholder="Scrivi il tuo indirizzo email">
+                                    </div>
                                 </div>
     
                                 <div class="col-6 mb-3">
-                                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                    <label for="password" class="form-label text-black">Password</label>
+                                    <input type="password" class="form-control" id="password" placeholder="Scrivi la tua password">
                                 </div>
 
                             </div>
@@ -142,51 +148,65 @@
                             <div class="row gutter-md">
 
                                 <div class="col-6 mb-3">
-                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <label for="exampleInputEmail1 text-black" class="form-label text-black">Indirizzo Email</label>
+                                    <label class="sr-only text-black" for="email">Email</label>
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">@</div>
+                                        </div>
+                                        <input type="email" class="form-control" id="email" placeholder="Scrivi il tuo indirizzo email">
+                                    </div>
                                 </div>
     
                                 <div class="col-6 mb-3">
-                                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1">
-                                </div>
-
-                            </div>
-
-                            <div class="row gutter-md">
-
-                                <div class="col-6 mb-3">
-                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                </div>
-    
-                                <div class="col-4 mb-3">
-                                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1">
-                                </div>
-
-                                <div class="col-2 mb-3">
-                                    <label for="exampleInputEmail1" class="form-label">CAP</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <label for="password" class="form-label text-black">Password</label>
+                                    <input type="password" class="form-control" id="password" placeholder="Scrivi la tua password">
                                 </div>
 
                             </div>
 
                             <div class="row gutter-md">
                                 <div class="col-12 mb-3">
-                                    <label for="exampleInputEmail1" class="form-label">CAP</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <label for="via" class="form-label text-black">Indirizzo</label>
+                                    <input type="text" class="form-control" id="via" placeholder="Scrivi la via ed il numero civico della tua abitazione">
                                 </div>
                             </div>
 
                             <div class="row gutter-md">
-                                <div class="input-group col-12 mb-3">
-                                    <input type="file" class="form-control" id="inputGroupFile02">
-                                    <label class="input-group-text" for="inputGroupFile02">Upload</label>
+
+                                <div class="col-6 mb-3">
+                                    <label for="city" class="form-label text-black">Città</label>
+                                    <input type="text" class="form-control" id="city" placeholder="Scrivi la città in cui vivi">
+                                </div>
+
+                                <div class="col-4 mb-3">
+                                    <label for="inputState" class="text-black">Stato</label>
+                                    <select id="inputState" class="form-control">
+                                      <option selected>Scegli</option>
+                                      <option>...</option>
+                                    </select>
                                   </div>
+
+                                <div class="col-2 mb-3">
+                                    <label for="cap" class="form-label text-black">CAP</label>
+                                    <input type="number" class="form-control" id="cap">
+                                </div>
+
                             </div>
 
-                            
+                            <div class="row gutter-md">
+                                <div class="col-12 mb-3">
+                                    <label for="inputGroupFile02" class="form-label text-black">Foto</label>
+                                    <input type="file" class="form-control" id="inputGroupFile02" placeholder="Nessun file selezionato">
+                                </div>
+                            </div>
+
+                            <div class="row gutter-md">
+                                <div class="col-12 mb-3">
+                                    <input type="checkbox" id="lezione" name="lezione" value="lezione">
+                                    <label class="dark-text" for="vehicle2"> Seleziona per proseguire</label>
+                                </div>
+                            </div>
 
                             <button class="btn btn-primary" type="button" data-bs-toggle="dropdown">
                                     Salva
