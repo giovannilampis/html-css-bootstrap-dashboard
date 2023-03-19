@@ -287,10 +287,20 @@ td {
     white-space: nowrap;
 }
 
-/* pen & trash icons become pale-grey on :hover */
+/* tr elements in table become light-grey on :hover */
+
+table tr:hover {
+    background-color: var(--pale-grey);
+}
+
+/* pen & trash icons become light-grey on :hover */
 
 table a:hover {
-    background-color: var(--light-grey);
+    background-color: grey;
+}
+
+table a i:hover {
+    color: var(--white);
 }
 
 /* FAQ section */
