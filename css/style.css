@@ -178,7 +178,7 @@ aside a.not-on-mobile {
 
 .aside-settings div.d-flex:hover,
 aside div.d-flex div.d-flex:hover {
-    background-color: gray;
+    background-color: grey;
 }
 
 /* MAIN */
@@ -280,6 +280,8 @@ table span,
 table tr td {
     color: var(--dark-text);
 }
+
+/* Cell content does not wrap */
 
 td {
     white-space: nowrap;
