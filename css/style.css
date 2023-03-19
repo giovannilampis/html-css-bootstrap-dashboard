@@ -386,4 +386,8 @@ td {
     .pill-plus {
         display: none;
     }
+
+    div.offcanvas {
+        width: 40% !important;
+    }
 }
