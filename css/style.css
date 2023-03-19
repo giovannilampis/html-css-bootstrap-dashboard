@@ -207,6 +207,13 @@ main {
     text-decoration: none;
 }
 
+/* .open-form element changes color on :hover */
+
+.open-form:hover {
+    background-color: var(--dark-blue);
+    border: none;
+}
+
 /* breadcrumbs elements layout */
 
 .breadcrumb-pill {
