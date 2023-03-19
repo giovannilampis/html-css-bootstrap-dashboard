@@ -210,6 +210,12 @@ main {
     line-height: 1rem;
 }
 
+/* breadcrumb-pills become darker on :hover */
+
+.breadcrumb-pill:hover {
+    background-color: var(--dark-blue);
+}
+
 /* margin right classes */
 
 .mr-1 {
