@@ -287,6 +287,12 @@ td {
     white-space: nowrap;
 }
 
+/* pen & trash icons become pale-grey on :hover */
+
+table a:hover {
+    background-color: var(--light-grey);
+}
+
 /* FAQ section */
 
 #main-content-faq {
