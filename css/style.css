@@ -152,6 +152,8 @@ aside {
     height: 100vh;
     background-color: var(--dark-blue);
     background-image: url(../images/sidebar-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     position: fixed;
     top: 0;
     left: 0;
