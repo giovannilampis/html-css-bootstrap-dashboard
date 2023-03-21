@@ -265,6 +265,10 @@ main {
     height: 3.5rem;
 }
 
+#boolean-top-menu {
+    font-size: 2rem;
+}
+
 #class-avatar {
     width: 20%;
 }
