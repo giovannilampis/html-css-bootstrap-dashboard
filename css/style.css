@@ -265,12 +265,10 @@ main {
     height: 3.5rem;
 }
 
-#boolean-top-menu {
-    font-size: 2rem;
-}
+/* add margin bottom to #blaze-plan element */
 
-#class-avatar {
-    width: 20%;
+#blaze-plan {
+    margin-bottom: -5px;
 }
 
 /* TABLE section */
@@ -324,6 +322,13 @@ table a:hover {
 table a i:hover {
     color: var(--white);
 }
+
+/* avatar image dimension */
+
+#class-avatar {
+    width: 20%;
+}
+
 
 /* FAQ section */
 
