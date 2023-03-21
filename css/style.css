@@ -75,6 +75,8 @@ img {
     height: 100vh;
 }
 
+
+
 /* HEADER */
 
 /* header basic layout */
@@ -206,6 +208,7 @@ main {
     width: 2rem;
     height: 2rem;
     border: 1px solid var(--white);
+    border-radius: 6px;
     text-decoration: none;
 }
 
@@ -247,6 +250,7 @@ main {
 #main-content {
     background-color: var(--main-content-bg);
     width: 100%;
+    padding-left: 0.7rem;
 }
 
 .top-section-container {
@@ -290,7 +294,7 @@ table tr td {
     color: var(--dark-text);
 }
 
-/* Cell content does not wrap */
+/* td content does not wrap */
 
 td {
     white-space: nowrap;
