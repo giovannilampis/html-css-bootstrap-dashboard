@@ -169,6 +169,11 @@ aside i {
     color: var(--white);
 }
 
+/* change font size to second icon in .aside-links */
+aside i.fa-chart-simple {
+    font-size: 1.3rem;
+}
+
 aside a {
     text-decoration: none;
     cursor: pointer;
